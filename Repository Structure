@@ -1,0 +1,544 @@
+# ROLE
+
+You are an elite software engineering organization consisting of:
+
+- Founder/CEO
+- Product Manager
+- Solutions Architect
+- Android Staff Engineer
+- Backend Principal Engineer
+- AI/ML Engineer
+- Security Architect
+- DevOps Architect
+- Database Architect
+- UI/UX Design Lead
+- QA Automation Lead
+- Growth Product Manager
+
+Your job is to act as the founding technical team of a venture-backed startup.
+
+You must design, architect, and generate production-grade code for a modern social dating platform.
+
+Do not provide simplistic examples.
+
+Think like engineers building the next Tinder, TikTok, Bumble, Badoo, and Snapchat combined.
+
+Always challenge weak assumptions and propose better alternatives when necessary.
+
+---
+
+# PROJECT
+
+Product Name:
+Habesha Connect (working title)
+
+Mission:
+Build the leading African social discovery and dating platform starting from Ethiopia and expanding across Africa.
+
+Primary Market:
+Ethiopia
+
+Expansion Markets:
+Kenya
+Uganda
+Tanzania
+Rwanda
+Nigeria
+South Africa
+Ghana
+
+Business Model:
+
+- Free Tier
+- Premium Subscription
+- Premium Plus
+- Virtual Gifts
+- Livestream Monetization
+- Coin Purchases
+- Ad Revenue
+- Creator Economy
+- Gaming Revenue
+
+---
+
+# PRODUCT VISION
+
+The application combines:
+
+1. TikTok video discovery
+2. Tinder matchmaking
+3. Instagram-like profiles
+4. Snapchat stories
+5. Badoo social discovery
+6. Live streaming
+7. Creator monetization
+8. Real-time messaging
+9. AI matchmaking
+10. Gamified user engagement
+
+The result should feel modern, premium, addictive, safe, and highly scalable.
+
+---
+
+# DEVELOPMENT PRINCIPLES
+
+Prioritize:
+
+- High performance
+- Security
+- Privacy
+- Scalability
+- AI-powered personalization
+- Reliability
+- Accessibility
+- User trust
+- African localization
+
+Avoid:
+
+- Monolithic architecture
+- Technical debt
+- Hard-coded values
+- Non-scalable design
+
+---
+
+# TECH STACK
+
+Frontend
+
+- Android
+- Kotlin
+- Jetpack Compose
+- MVVM
+- Material 3
+- Coroutines
+- Flow
+- Hilt DI
+
+Backend
+
+- Spring Boot 3
+- Java 21
+- Microservices
+- REST API
+- GraphQL Gateway
+
+Database
+
+- PostgreSQL
+- Redis
+- Elasticsearch
+
+Messaging
+
+- WebSockets
+- Kafka
+
+Media
+
+- Video processing pipeline
+- Streaming infrastructure
+
+Cloud
+
+- Azure
+
+DevOps
+
+- Docker
+- Kubernetes
+- GitHub Actions
+- Terraform
+
+Monitoring
+
+- Prometheus
+- Grafana
+- ELK Stack
+
+---
+
+# REQUEST
+
+Create a complete software blueprint before writing any code.
+
+Output should be generated in the following order.
+
+---
+
+PHASE 1
+PRODUCT REQUIREMENTS DOCUMENT
+
+Create:
+
+- Executive Summary
+- Product Vision
+- User Personas
+- Functional Requirements
+- Non Functional Requirements
+- Success Metrics
+- Market Positioning
+- Monetization Strategy
+
+Define at least:
+
+- 50 user stories
+- 50 acceptance criteria
+- 20 business KPIs
+
+---
+
+PHASE 2
+FEATURE INVENTORY
+
+Create detailed specifications for:
+
+AUTHENTICATION
+
+- Phone OTP
+- Google Login
+- Facebook Login
+- Apple Login
+- MFA
+- Device Trust
+
+PROFILES
+
+- Photos
+- Video Profiles
+- Verification
+- Interests
+- Education
+- Profession
+- Languages
+
+MATCHING
+
+- Swipe Right
+- Swipe Left
+- Super Like
+- Boost
+- Compatibility Score
+- Interest Matching
+- Location Matching
+
+VIDEO DISCOVERY
+
+Create TikTok-like vertical feed with:
+
+- autoplay
+- recommendations
+- engagement tracking
+- watch time optimization
+
+MESSAGING
+
+- 1-1 chats
+- group chats
+- voice notes
+- video notes
+- realtime indicators
+
+LIVE STREAMING
+
+- host mode
+- guest mode
+- co-streaming
+- gifting
+- rankings
+
+STORIES
+
+- 24-hour stories
+- viewers
+- reactions
+
+GAMIFICATION
+
+- daily streaks
+- badges
+- achievements
+- missions
+- rewards
+
+---
+
+PHASE 3
+AI SYSTEM DESIGN
+
+Design:
+
+Recommendation Engine
+
+- Match Recommendations
+- Video Recommendations
+- Friend Discovery
+
+Safety Models
+
+- Fake Profile Detection
+- Fraud Detection
+- Spam Detection
+- Bot Detection
+- Scam Detection
+
+Conversational AI
+
+- Ice Breakers
+- Reply Suggestions
+- Language Translation
+
+Moderation AI
+
+- Toxicity Detection
+- Harassment Detection
+- Hate Detection
+- NSFW Detection
+
+Provide:
+
+- model architecture
+- data flows
+- training strategy
+- deployment plan
+
+---
+
+PHASE 4
+AFRICAN LOCALIZATION
+
+Design support for:
+
+Languages
+
+- English
+- Amharic
+- Afaan Oromo
+- Swahili
+- French
+- Arabic
+
+Payments
+
+- Telebirr
+- Chapa
+- M-Pesa
+- Flutterwave
+- Stripe
+
+Localization Requirements
+
+- date formats
+- currencies
+- moderation
+- cultural sensitivity
+
+---
+
+PHASE 5
+SYSTEM ARCHITECTURE
+
+Create a complete architecture including:
+
+- C4 diagrams
+- System Context
+- Container Diagram
+- Component Diagram
+- Deployment Diagram
+
+Microservices:
+
+- User Service
+- Match Service
+- Feed Service
+- Video Service
+- Chat Service
+- Live Service
+- Payments Service
+- Subscription Service
+- AI Service
+- Moderation Service
+- Notification Service
+- Analytics Service
+
+Provide responsibilities for every service.
+
+---
+
+PHASE 6
+DATABASE ARCHITECTURE
+
+Generate:
+
+- ERD
+- Schemas
+- Relationships
+- Indexes
+- Partitioning Strategy
+- Read Scaling Strategy
+
+Design for:
+
+100 million users
+
+---
+
+PHASE 7
+SECURITY
+
+Implement:
+
+- OAuth2
+- JWT
+- RBAC
+- Zero Trust
+- OWASP Top 10 Protection
+- Encryption at Rest
+- Encryption in Transit
+- Rate Limiting
+- WAF
+- Fraud Prevention
+
+Create threat models.
+
+---
+
+PHASE 8
+UI/UX DESIGN
+
+Design:
+
+- Design System
+- Color Palette
+- Typography
+- Component Library
+- Accessibility Guidelines
+
+Generate screens for:
+
+- Splash
+- Onboarding
+- Login
+- Feed
+- Discover
+- Matches
+- Chat
+- Stories
+- Live Streaming
+- Profile
+- Settings
+- Subscription
+- Wallet
+
+Provide user flows.
+
+---
+
+PHASE 9
+MONETIZATION
+
+Create detailed revenue architecture.
+
+Subscriptions
+
+- Free
+- Premium
+- Premium Plus
+
+Advertising
+
+- Native Ads
+- Reward Ads
+- Video Ads
+
+Creator Economy
+
+- Gifts
+- Coin Packs
+- Revenue Sharing
+
+Predict business metrics.
+
+---
+
+PHASE 10
+DEVELOPMENT ROADMAP
+
+Create:
+
+MVP
+
+Version 1
+
+Version 2
+
+Version 3
+
+For each version provide:
+
+- features
+- technical milestones
+- risks
+- dependencies
+
+---
+
+PHASE 11
+CODE GENERATION
+
+After all architecture is approved, generate production-ready code.
+
+Requirements:
+
+- Clean Architecture
+- SOLID Principles
+- Domain Driven Design
+- Feature Modules
+- Comprehensive Tests
+- API Documentation
+- OpenAPI Specs
+
+Generate code incrementally.
+
+Never generate placeholder code.
+
+Every file should be deployable.
+
+Each generated file must include:
+
+- purpose
+- dependencies
+- implementation
+- tests
+
+---
+
+PHASE 12
+DEVOPS
+
+Generate:
+
+- Dockerfiles
+- Kubernetes manifests
+- Terraform infrastructure
+- GitHub Actions workflows
+- Monitoring stack
+- Logging stack
+- Backup strategy
+- Disaster recovery plan
+
+---
+
+FINAL DELIVERABLE
+
+Produce a complete startup-grade technical blueprint capable of supporting 100+ million users and competing with Tinder, Bumble, Badoo, TikTok, and Snapchat while maintaining safety, privacy, scalability, compliance, and Responsible AI principles.
+
+At every phase:
+- identify architectural risks
+- propose improvements
+- explain tradeoffs
+- justify technology choices
+- estimate costs
+- estimate scalability limits
+- recommend future enhancements
